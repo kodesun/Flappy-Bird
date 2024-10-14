@@ -31,10 +31,12 @@ Build and run .exe file. (Not tested on Windows)
 
 2. ### Clone & Build
 ```bash
-git clone https://github.com/sudfish/Flappy-Bird.git
+git clone https://github.com/kodesun/Flappy-Bird.git
 cd Flappy-Bird && mkdir build/
-chmod u+x run.sh
-./run.sh
+cd build/
+cmake ..
+make
+./Flappy-Bird
 ```
 **run.sh** is a bash script designed to compile the project and include the SFML library.
 
@@ -46,4 +48,4 @@ chmod u+x run.sh
 Standard MIT license. Feel free to modify as you please.
 
 ## Author
-Created by [@sudfish](https://github.com/sudfish)
+Created by [@kodesun](https://github.com/kodesun)
